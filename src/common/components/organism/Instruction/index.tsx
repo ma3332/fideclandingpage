@@ -1,33 +1,33 @@
 import { Box, Grid, Typography } from '@mui/material'
 import React from 'react'
 
-export default function Features() {
+export default function Instruction() {
   return (
     <Box component='section' marginBottom={10}>
-        <Box component='a' id='features' className='relative xs:-top-[190px] lg:-top-[150px]'></Box>
+        <Box component='a' id='Instruction' className='relative xs:-top-[190px] lg:-top-[150px]'></Box>
         <Grid container rowSpacing={2} className='xs:-translate-y-20 lg:-translate-y-0'>
           <Grid item xs={12} md={3} marginBottom={{ xs: 4, md: 0}}>
             <Typography variant='h4' className='font-bold text-4xl xs:text-center md:text-left'>
-              120+
+              5+
             </Typography>
             <Typography variant='h6' className='text-xl xs:text-center md:text-left'>
-              Cryptocurrencies listed
+              EVM Networks Support
             </Typography>
           </Grid>
           <Grid item xs={12} md={3} marginBottom={{ xs: 4, md: 0}}>
             <Typography variant='h4' className='font-bold text-4xl xs:text-center md:text-left'>
-              50 Million
+              All Tokens
             </Typography>
             <Typography variant='h6' className='text-xl xs:text-center md:text-left'>
-              Registered Users
+              ERC20, NFT, ERC1155
             </Typography>
           </Grid>
           <Grid item xs={12} md={3} marginBottom={{ xs: 4, md: 0}}>
             <Typography variant='h4' className='font-bold text-4xl xs:text-center md:text-left'>
-              $14 Billion
+              Payment 
             </Typography>
             <Typography variant='h6' className='text-xl xs:text-center md:text-left'>
-              24h trading volume
+              Ecommerce Web3
             </Typography>
           </Grid>
           <Grid item xs={12} md={3} marginBottom={{ xs: 4, md: 0}}>

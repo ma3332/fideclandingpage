@@ -4,7 +4,7 @@ import BackgorundGradient from '@/common/components/atoms/BackgroundGradient'
 import Appnav from '@/common/components/organism/Appnav'
 import ContainerPage from '@/common/components/atoms/ContainerPage'
 import HeroSite from '@/common/components/organism/HeroSite'
-import Features from '@/common/components/organism/Features'
+import Instruction from '@/common/components/organism/Instruction'
 import TopCoins from '@/common/components/organism/TopCoins'
 import Steps from '@/common/components/organism/Steps'
 import Academy from '@/common/components/organism/Acadamy'
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bytrade - Exchange Platform for Your Cryptocurrencies</title>
+        <title>Fidec - Safe Key To Access Blockchain Ecosystem</title>
       </Head>
       <Appnav />
       <Box className='relative'>
@@ -24,8 +24,8 @@ export default function Home() {
       </Box>
       <ContainerPage>
         <HeroSite />
-        <Features />
-        <TopCoins />
+        <Instruction />
+        {/* <TopCoins /> */}
       </ContainerPage>
       <Box className='w-screen h-full xs:px-0 xs:py-8 lg:p-8 bg-[#000000]'>
         <ContainerPage>

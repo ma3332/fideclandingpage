@@ -22,10 +22,10 @@ export default function Footer() {
         <Stack className='py-8'>
             <Grid container columnSpacing={2} rowSpacing={4}>
                 <Grid item xs={12} md={6} lg={3}>
-                    <Typography variant='h5' className='font-bold mb-2'>
+                    {/* <Typography variant='h5' className='font-bold mb-2'>
                         Start earning today
-                    </Typography>
-                    { getUserInfo === undefined ? 
+                    </Typography> */}
+                    {/* { getUserInfo === undefined ? 
                         <Link href='/register'>
                             <ButtonContained label='Register Now' size='large' fullWidth className='py-3 capitalize text-[16px] rounded-[4px] font-bold' />
                         </Link>
@@ -33,7 +33,7 @@ export default function Footer() {
                         <Link href='/#top-coins'>
                             <ButtonContained label='Trades Now' size='large' fullWidth className='py-3 capitalize text-[16px] rounded-[4px] font-bold' />
                         </Link>
-                    }
+                    } */}
                 </Grid>
                 <Grid item xs={12} md={6} lg={3} className='xs:text-start lg:text-end'>
                     <Typography variant='h5' className='font-bold mb-2'>
@@ -80,22 +80,22 @@ export default function Footer() {
                     </Link>
                     <Stack direction='row' spacing={1} marginBottom={1}>
                         <PlaceIcon fontSize='small' color='primary' />
-                        <Typography variant='subtitle2'>Five Lamps Place, 1 Amiens Street, Dublin, New Jersey</Typography>
+                        <Typography variant='subtitle2'>35/24/ Dang Tien Dong Street/ Dong Da District/ Hanoi</Typography>
                     </Stack>
                     <Stack direction='row' spacing={1} marginBottom={1}>
                         <CallIcon fontSize='small' color='primary' />
-                        <Typography variant='subtitle2'>+201 7612 812388</Typography>
+                        <Typography variant='subtitle2'>+84 918498199</Typography>
                     </Stack>
                     <Stack direction='row' spacing={1} marginBottom={1}>
                         <EmailIcon fontSize='small' color='primary' />
-                        <Typography variant='subtitle2'>bytrade@trade.com</Typography>
+                        <Typography variant='subtitle2'>support@fidec.io</Typography>
                     </Stack>
                 </Grid>
             </Grid>
         </Stack>
         <Stack className='py-4'>
             <Divider light className='border-gray-600 mb-3' />
-            <Typography variant='subtitle1' className='text-center text-text-secondary'>© 2023 <Link href='/' className='hover:text-primary'>Bytrade</Link> - All Rights Reserved</Typography>
+            <Typography variant='subtitle1' className='text-center text-text-secondary'>© 2022 <Link href='/' className='hover:text-primary'>Fidec</Link> - All Rights Reserved</Typography>
         </Stack>
     </>
   )

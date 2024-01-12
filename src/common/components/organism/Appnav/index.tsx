@@ -138,7 +138,7 @@ export default function Appnav() {
                                     </>
                                 )
                             })}
-                            { getUserInfo === undefined ? 
+                            {/* { getUserInfo === undefined ? 
                                 <Stack direction='row' spacing={{ md: 2, lg: 4}}>
                                     <ButtonContained label='Register' onClick={() => router.push('/register')} />
                                     <ButtonOutlined label='Login' onClick={() => router.push('/sign-in')} />
@@ -148,7 +148,7 @@ export default function Appnav() {
                                     <ButtonContained label={getUserInfo} variant='text' startIcon={<AccountCircleIcon fontSize='small' color='primary' />} className='align-middle max-w-[150px] truncate normal-case text-[16px] rounded-[2px] brightness-125' />
                                     <ButtonOutlined label='Logout' onClick={handleLogOut} />
                                 </Stack>
-                            }
+                            } */}
                         </Stack>
                     </Grid>
                 </Grid>
@@ -165,19 +165,20 @@ export const MenuItems = [
         link: '/'
     },
     {
+        label: 'Instructions',
+        link: '#Instruction'
+    },
+    {
         label: 'Features',
         link: '#features'
     },
     {
-        label: 'Markets',
-        link: '#top-coins'
+        label: 'News',
+        link: '#academy'
     },
     {
-        label: 'Academy',
-        link: '/#academy'
+        label: 'Networks',
+        link: '#partners'
     },
-    {
-        label: 'Partners',
-        link: '/#partners'
-    },
+    
 ]

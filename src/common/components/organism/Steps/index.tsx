@@ -17,9 +17,10 @@ export default function Steps() {
             <TabContext value={value}>
                 <Grid item xs={12} md={6}>
                     <TabsContainerVer onChange={handleChange} value={value} className='h-[315px]'>
-                        <TabItem label='Buy Crypto in 1 Minute' value='1' />
-                        <TabItem label='Here’s How You Save & Earn Interest' value='2' />
-                        <TabItem label='Make Your First Spot Trade' value='3' />
+                        <TabItem label='Order FIDEC Smart Card Wallet' value='1' />
+                        <TabItem label='Download Fidec Desktop App and activate your wallet' value='2' />
+                        <TabItem label='Download Fidec Mobile App and start your journey' value='3' />
+                        <TabItem label='Overal Instruction Documents' value='4' />
                     </TabsContainerVer>
                 </Grid>
                 <Grid item xs={12} md={6}>

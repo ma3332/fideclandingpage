@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Box, Button, Grid, Stack, Typography } from '@mui/material'
 import Cookies from 'js-cookie'
+import hero from "../../../../../public/hero.png"
 
 export default function HeroSite() {
     const getUserInfo = Cookies.get('loginInfo')
@@ -12,10 +13,10 @@ export default function HeroSite() {
             <Grid item xs={12} md={6}>
                 <Box className='xs:h-screen md:h-[calc(100vh/2)] lg:h-[calc(100vh-300px)] content-center grid xs:-translate-y-20 lg:translate-y-0'>
                     <Typography variant='h2' className='font-bold text-4xl mb-2'>
-                        Make your trades Faster, Safer, and Easier with BYTRADE
+                        Make your payment on BlockChain Networks Safer, Faster and Easier with FIDEC
                     </Typography>
                     <Typography variant='h3' className='text-[1.4rem] mb-4'>
-                        A Word-Class Exchange Platform that empowered to catch your best opportunities
+                        A Word-Class Smart Card Wallet that empowered to promote blockchain applications to life
                     </Typography>
                     <Stack direction='row' spacing={3} alignItems='cemter'>
                     { getUserInfo === undefined ? 
@@ -27,9 +28,9 @@ export default function HeroSite() {
                             <Button variant='contained' size='large' className='font-bold text-[16px] rounded-[5px] py-3'>Get Started →</Button>
                         </Link>
                     }
-                    <Link href='#'>
+                    {/* <Link href='#'>
                         <Image src='/appstore.png' width={35} height={35} alt='Get on Apple Store' className='hover:brightness-75 transition' />
-                    </Link>
+                    </Link> */}
                     <Link href='#'>
                         <Image src='/playstore.png' width={35} height={35} alt='Get on Google Playstore' className='translate-y-1 hover:brightness-75 transition'/>
                     </Link>
@@ -38,7 +39,7 @@ export default function HeroSite() {
             </Grid>
             <Grid item xs={12} md={6} className='grid'>
                 <Box className='xs:w-3/4 lg:w-[55%] xl:w-[73%] justify-self-center md:mt-[4rem] lg:mt-[8rem]' display={{ xs: 'none', md: 'block' }}>
-                    <Image src='/Hero.png' width={100} height={100} alt='Bytrade Hero' layout='responsive' className='xs:-translate-y-6 lg:-translate-y-[3.6rem]'/>
+                    <Image src={hero} width={100} height={100} alt='Bytrade Hero' layout='responsive' className='xs:-translate-y-6 lg:-translate-y-[3.6rem]'/>
                 </Box>
             </Grid>
         </Grid>
